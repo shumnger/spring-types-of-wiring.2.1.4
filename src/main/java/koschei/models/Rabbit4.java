@@ -13,7 +13,7 @@ public class Rabbit4 {
         return ", в зайце утка " + duck.toString();
     }
     @Autowired
-    public void setOcean(Duck5 duck) {
+    public void setDuck(Duck5 duck) {
         this.duck = duck;
     }
 }
